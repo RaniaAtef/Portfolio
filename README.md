@@ -14,13 +14,13 @@ Having [Node](https://nodejs.org/en/) in your machine is the only prequisite.
 
 You need to run this command to install the dependences.
 
-sh
+
 npm install
 
 
 You need to run this command to run your development server in your device.
 
-sh
+
 npm run dev
 
 
