@@ -56,7 +56,7 @@ const Biography = () => {
               <img
                 src="../../public/1.jpg"
                 style={{ width: "90%", height: "70%" }}
-                alt="GIF Image"
+                alt="hh"
               />
             </Grid>
 
