@@ -54,7 +54,7 @@ const Biography = () => {
           <Grid container sx={{ pt: "100px", p: "50px" }}>
             <Grid item lg={6} xs={12}>
               <img
-                src="../../public/1.jpg"
+                src="study.gif"
                 style={{ width: "90%", height: "70%" }}
                 alt="hh"
               />
