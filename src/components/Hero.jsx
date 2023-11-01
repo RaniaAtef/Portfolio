@@ -124,7 +124,7 @@ const Hero = () => {
                 fontFamily: "poppins",
               }}
             >
-              <Box sx={{ position: "relative", left: "166px", top: "-28px" }}>
+              <Box sx={{ position: "relative", left: "163px", top: "-28px" }}>
                 <Typewriter
                   options={{
                     strings: [

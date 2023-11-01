@@ -81,7 +81,11 @@ const Biography = () => {
                   }}
                 >
                   <Box
-                    sx={{ position: "relative", left: "178px", top: "-30px" }}
+                    sx={{
+                      position: "relative",
+                      left: { lg: "178px" },
+                      top: { lg: "-30px", md: "-50px" },
+                    }}
                   >
                     <Typewriter
                       options={{
