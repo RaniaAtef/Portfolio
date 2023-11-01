@@ -125,7 +125,7 @@ const Hero = () => {
               }}
             >
               <Box
-                sx={{ position: "relative", left: "166px", top: "-28px" }}
+                sx={{ position: "relative", left: "160px", top: "-28px" }}
                 md={{ position: "relative", left: "160px", top: "-28px" }}
               >
                 <Typewriter

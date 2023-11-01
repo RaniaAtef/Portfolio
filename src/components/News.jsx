@@ -125,7 +125,7 @@ const News = () => {
                 color: type === "React" ? "#E65F78" : "black",
                 cursor: "pointer",
                 fontWeight: "500",
-                fontSize: "19px",
+                fontSize: "16px",
               }}
             >
               React
@@ -137,7 +137,7 @@ const News = () => {
                 color: type === "Html&Css" ? "#E65F78" : "black",
                 cursor: "pointer",
                 fontWeight: "500",
-                fontSize: "19px",
+                fontSize: "16px",
               }}
             >
               Html&Css
@@ -149,7 +149,7 @@ const News = () => {
                 color: type === "Js" ? "#E65F78" : "black",
                 cursor: "pointer",
                 fontWeight: "500",
-                fontSize: "19px",
+                fontSize: "16px",
               }}
             >
               Js
@@ -161,7 +161,7 @@ const News = () => {
                 color: type === "Node Js" ? "#E65F78" : "black",
                 cursor: "pointer",
                 fontWeight: "500",
-                fontSize: "19px",
+                fontSize: "16px",
               }}
             >
               Node Js

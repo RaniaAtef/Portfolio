@@ -15,7 +15,11 @@ import DesktopWindowsIcon from "@mui/icons-material/DesktopWindows";
 const bull = (
   <Box
     component="span"
-    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
+    sx={{
+      display: "inline-block",
+      mx: "2px",
+      transform: "scale(0.8)",
+    }}
   >
     •
   </Box>
@@ -67,13 +71,20 @@ export default function Services() {
             sx={{
               pt: "87px",
 
-              margin: "auto 0",
+              margin: "0 auto",
             }}
           >
             <AnimationOnScroll animateIn="animate__fadeIn">
-              <Grid item container md={{ margin: "auto 0" }}>
+              <Grid item container sx={{ margin: " 0 auto" }}>
                 <Grid item lg={4} xs={12}>
-                  <Card sx={{ minWidth: 275, mx: "20px", mb: { xs: "15px" } }}>
+                  <Card
+                    sx={{
+                      minWidth: 275,
+                      maxWidth: "500px",
+                      mx: "20px",
+                      mb: { xs: "15px" },
+                    }}
+                  >
                     <Box
                       sx={{
                         p: { xs: "20px", md: "40px 30px 20px" },
@@ -119,7 +130,14 @@ export default function Services() {
                 </Grid>
 
                 <Grid item lg={4} xs={12}>
-                  <Card sx={{ minWidth: 275, mx: "20px", mb: { xs: "15px" } }}>
+                  <Card
+                    sx={{
+                      minWidth: 275,
+                      maxWidth: "500px",
+                      mx: "20px",
+                      mb: { xs: "15px" },
+                    }}
+                  >
                     <Box sx={{ p: "40px 30px 20px " }}>
                       <CardContent>
                         <PaletteIcon
@@ -156,7 +174,14 @@ export default function Services() {
                   </Card>
                 </Grid>
                 <Grid item lg={4} xs={12}>
-                  <Card sx={{ minWidth: 275, mx: "20px", mb: { xs: "15px" } }}>
+                  <Card
+                    sx={{
+                      minWidth: 275,
+                      maxWidth: "500px",
+                      mx: "20px",
+                      mb: { xs: "15px" },
+                    }}
+                  >
                     <Box sx={{ p: "40px 30px 20px " }}>
                       <CardContent>
                         <DesktopWindowsIcon
