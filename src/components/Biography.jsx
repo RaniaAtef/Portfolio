@@ -18,10 +18,7 @@ const Biography = () => {
   };
   return (
     <>
-      <Box
-        sx={{ backgroundColor: "white", pt: "140px", pb: "138px" }}
-        id="about"
-      >
+      <Box sx={{ backgroundColor: "white", pt: "50px", pb: "0" }} id="about">
         <Container>
           <Box textAlign="start">
             <Typography
@@ -82,6 +79,7 @@ const Biography = () => {
                 >
                   <Box
                     sx={{
+                      width: "200px",
                       position: "relative",
                       left: { lg: "178px" },
                       top: { lg: "-30px", md: "-50px" },
