@@ -41,7 +41,7 @@ export default function Services() {
             <Typography
               sx={{
                 mb: 1.5,
-                fontSize: "large",
+                fontSize: "30px",
                 fontWeight: 700,
                 color: "#E65F78",
                 ml: { xs: "20px", md: "20px" },
@@ -54,7 +54,7 @@ export default function Services() {
             <Typography
               sx={{
                 mb: 1.5,
-                fontSize: "30px",
+                fontSize: "large",
                 fontWeight: 800,
                 color: "#000",
                 ml: "20px",
@@ -75,13 +75,22 @@ export default function Services() {
             }}
           >
             <AnimationOnScroll animateIn="animate__fadeIn">
-              <Grid item container sx={{ margin: " 0 auto" }}>
+              <Grid
+                item
+                container
+                sx={{
+                  margin: " 0 auto",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
                 <Grid item lg={4} xs={12}>
                   <Card
                     sx={{
                       minWidth: 275,
                       maxWidth: "500px",
-                      mx: "20px",
+                      // mx: "20px",
+                      mr: "20px",
                       mb: { xs: "15px" },
                     }}
                   >
@@ -134,7 +143,8 @@ export default function Services() {
                     sx={{
                       minWidth: 275,
                       maxWidth: "500px",
-                      mx: "20px",
+                      // mx: "20px",
+                      mr: "20px",
                       mb: { xs: "15px" },
                     }}
                   >
@@ -178,7 +188,8 @@ export default function Services() {
                     sx={{
                       minWidth: 275,
                       maxWidth: "500px",
-                      mx: "20px",
+                      // mx: "20px",
+                      mr: "20px",
                       mb: { xs: "15px" },
                     }}
                   >

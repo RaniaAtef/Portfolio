@@ -11,6 +11,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { useState } from "react";
 import Scrollspy from "react-scrollspy";
+import { WidthFull } from "@mui/icons-material";
 
 const pages = ["home", "about", "services", "portfolio", "contact"];
 
@@ -45,14 +46,17 @@ function Navbar() {
   };
   return (
     <AppBar
-      position="static"
+      position="sticky"
+      width="100%"
       sx={{
+        position: "sticky",
         bgcolor: isScrolled ? "white" : "transparent",
         color: isScrolled ? "black" : "white",
         boxShadow: isScrolled ? " 0 4px 8px 0 rgba(0, 0, 0, 0.2)" : "none",
         zIndex: "100",
         font: "16px",
         transition: "all 0.3s ease",
+        width: "100%",
       }}
       style={styles.appBar}
     >

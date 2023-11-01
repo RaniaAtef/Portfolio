@@ -27,7 +27,7 @@ const Biography = () => {
             <Typography
               sx={{
                 mb: 1.5,
-                fontSize: "large",
+                fontSize: "30px",
                 fontWeight: 700,
                 color: "#E65F78",
                 ml: "20px",
@@ -40,12 +40,12 @@ const Biography = () => {
             <Typography
               sx={{
                 mb: 1.5,
-                fontSize: "30px",
+                fontSize: "large",
                 fontWeight: 800,
                 color: "#000",
                 ml: "20px",
               }}
-              variant="h1"
+              variant="h3"
               component="div"
             >
               About Me{" "}

@@ -102,7 +102,7 @@ const Hero = () => {
             </Typography>
           </Stack>
           <Box
-            sx={{ textAlign: "center", position: "relative", left: "-70px" }}
+            sx={{ textAlign: "center", position: "relative", left: "-100px" }}
           >
             <Typography
               color="white"
