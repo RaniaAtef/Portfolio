@@ -15,7 +15,11 @@ const Footer = () => {
           }}
         >
           <Box>
-            <Typography variant="body1" color="inherit">
+            <Typography
+              variant="body1"
+              color="inherit"
+              sx={{ fontSize: "16px" }}
+            >
               Copyright © 2023. All Rights Reserved.
             </Typography>
           </Box>

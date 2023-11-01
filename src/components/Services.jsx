@@ -40,7 +40,7 @@ export default function Services() {
                 fontSize: "large",
                 fontWeight: 700,
                 color: "#E65F78",
-                ml: { xs: "0", md: "20px" },
+                ml: { xs: "20px", md: "20px" },
               }}
               variant="h1"
               component="div"
@@ -61,9 +61,17 @@ export default function Services() {
               Quality services
             </Typography>
           </Box>
-          <Grid container spacing={4} sx={{ pt: "87px" }}>
+          <Grid
+            container
+            spacing={4}
+            sx={{
+              pt: "87px",
+
+              margin: "auto 0",
+            }}
+          >
             <AnimationOnScroll animateIn="animate__fadeIn">
-              <Grid item container>
+              <Grid item container md={{ margin: "auto 0" }}>
                 <Grid item lg={4} xs={12}>
                   <Card sx={{ minWidth: 275, mx: "20px", mb: { xs: "15px" } }}>
                     <Box

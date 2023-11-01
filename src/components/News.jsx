@@ -112,7 +112,7 @@ const News = () => {
                 color: type === "All" ? "#E65F78" : "black",
                 cursor: "pointer",
                 fontWeight: "500",
-                fontSize: "19px",
+                fontSize: "16px",
                 pb: "20px",
               }}
             >
