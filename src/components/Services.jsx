@@ -88,7 +88,7 @@ export default function Services() {
                   <Card
                     sx={{
                       minWidth: 275,
-                      maxWidth: "500px",
+                      maxWidth: "450px",
                       // mx: "20px",
                       mr: "20px",
                       mb: { xs: "15px" },

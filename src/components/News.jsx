@@ -164,7 +164,7 @@ const News = () => {
                 fontSize: "16px",
               }}
             >
-              Node Js
+              Node
             </Box>
           </ul>
         </Box>

@@ -13,7 +13,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 const Biography = () => {
   const handleDownload = () => {
     // Replace 'your-cv-file.pdf' with the actual PDF file you want to download or open
-    const pdfUrl = "../../public/RaniaAtefAliCv.pdf";
+    const pdfUrl = "../../public/RaniaAtefCv.pdf";
     window.open(pdfUrl, "_blank");
   };
   return (
